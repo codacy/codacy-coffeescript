@@ -5,7 +5,9 @@ defaultLintConfig = require './default'
 lintConfig = {}
 
 try
-    userConfig = require '/src/.codacy'
+    fs = require 'fs'
+    data = fs.readFileSync '/.codacyrc', 'utf8'
+    userConfig = JSON.parse(data)
 catch
     userConfig = {}
 

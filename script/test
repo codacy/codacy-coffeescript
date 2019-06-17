@@ -15,5 +15,5 @@ docker rmi codacy-coffeescript
 docker build -t codacy-coffeescript . && printf "${GREEN}Build successful!${NC}\n"
 printf "${CYAN}Running plugin tests${NC}\n"
 cd codacy-plugins-test && \
-  ((sbt "run-main codacy.plugins.DockerTest json codacy-coffeescript:latest" && \
-    sbt "run-main codacy.plugins.DockerTest pattern codacy-coffeescript:latest") || cd ..)
+  ((sbt "runMain codacy.plugins.DockerTest json codacy-coffeescript:latest" && \
+    sbt "runMain codacy.plugins.DockerTest pattern codacy-coffeescript:latest") || cd ..)

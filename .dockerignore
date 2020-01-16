@@ -1,6 +1,4 @@
-src/
 codacy-plugins-test/
 node_modules/
 *.log
 .gitignore
-Gruntfile.coffee

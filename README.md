@@ -2,8 +2,6 @@
 
 Offers coffeescript support for Codacy
 
-Please run `sh script/bootstrap` to see the generated patterns
-
 [![Codacy Badge](https://api.codacy.com/project/badge/Grade/e3358fb3445a4337b9e20c5c09106925)](https://www.codacy.com/gh/codacy/codacy-coffeelint?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=codacy/codacy-coffeelint&amp;utm_campaign=Badge_Grade)
 [![Build Status](https://circleci.com/gh/codacy/codacy-coffeelint.svg?style=shield&circle-token=:circle-token)](https://circleci.com/gh/codacy/codacy-coffeelint)
 
@@ -37,6 +35,14 @@ Test the project with
 
 ```bash
 sh script/test
+```
+
+### Generate docs
+
+Generate or update docs with
+
+```bash
+grunt patterns
 ```
 
 ## What is Codacy

@@ -1,5 +1,16 @@
 var coffeelint = require('coffeelint');
 
+var defaultPatterns = [
+    "no_interpolation_in_single_quotes",
+    "no_stand_alone_at",
+    "no_backticks",
+    "duplicate_key",
+    "cyclomatic_complexity",
+    "no_unnecessary_fat_arrows",
+    "no_tabs",
+    "ensure_comprehensions"
+]
+
 module.exports = function(grunt) {
     grunt.registerTask('patterns', 'Generate docs for codacy', function() {
         var done = this.async();
@@ -27,7 +38,8 @@ module.exports = function(grunt) {
                     patternId: rule,
                     category: category,
                     level: level,
-                    parameters: parameters
+                    parameters: parameters,
+                    enabled: defaultPatterns.includes(rule)
                 });
 
                 codacyPatternDescriptions.push({

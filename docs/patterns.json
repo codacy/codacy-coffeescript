@@ -5,7 +5,8 @@
     {
       "patternId": "coffeescript_error",
       "category": "CodeStyle",
-      "level": "Error"
+      "level": "Error",
+      "enabled": false
     },
     {
       "patternId": "arrow_spacing",
@@ -22,17 +23,20 @@
           "description": "Number of spaces",
           "name": "spaces"
         }
-      ]
+      ],
+      "enabled": false
     },
     {
       "patternId": "braces_spacing",
       "category": "CodeStyle",
-      "level": "Info"
+      "level": "Info",
+      "enabled": false
     },
     {
       "patternId": "no_tabs",
       "category": "CodeStyle",
-      "level": "Error"
+      "level": "Error",
+      "enabled": true
     },
     {
       "patternId": "no_trailing_whitespace",
@@ -49,7 +53,8 @@
           "description": "Allow in empty lines",
           "name": "allowed_in_empty_lines"
         }
-      ]
+      ],
+      "enabled": false
     },
     {
       "patternId": "max_line_length",
@@ -66,7 +71,8 @@
           "description": "Enforce line limit for comments",
           "name": "limitComments"
         }
-      ]
+      ],
+      "enabled": false
     },
     {
       "patternId": "line_endings",
@@ -78,12 +84,14 @@
           "description": "Line ending type",
           "name": "value"
         }
-      ]
+      ],
+      "enabled": false
     },
     {
       "patternId": "no_trailing_semicolons",
       "category": "CodeStyle",
-      "level": "Warning"
+      "level": "Warning",
+      "enabled": false
     },
     {
       "patternId": "indentation",
@@ -95,17 +103,20 @@
           "description": "Indentation value",
           "name": "value"
         }
-      ]
+      ],
+      "enabled": false
     },
     {
       "patternId": "camel_case_classes",
       "category": "CodeStyle",
-      "level": "Error"
+      "level": "Error",
+      "enabled": false
     },
     {
       "patternId": "colon_assignment_spacing",
       "category": "CodeStyle",
-      "level": "Info"
+      "level": "Info",
+      "enabled": false
     },
     {
       "patternId": "no_implicit_braces",
@@ -117,57 +128,68 @@
           "description": "Strict",
           "name": "strict"
         }
-      ]
+      ],
+      "enabled": false
     },
     {
       "patternId": "no_nested_string_interpolation",
       "category": "ErrorProne",
-      "level": "Warning"
+      "level": "Warning",
+      "enabled": false
     },
     {
       "patternId": "no_plusplus",
       "category": "ErrorProne",
-      "level": "Warning"
+      "level": "Warning",
+      "enabled": false
     },
     {
       "patternId": "no_throwing_strings",
       "category": "ErrorProne",
-      "level": "Error"
+      "level": "Error",
+      "enabled": false
     },
     {
       "patternId": "no_backticks",
       "category": "ErrorProne",
-      "level": "Error"
+      "level": "Error",
+      "enabled": true
     },
     {
       "patternId": "no_implicit_parens",
       "category": "ErrorProne",
-      "level": "Warning"
+      "level": "Warning",
+      "enabled": false
     },
     {
       "patternId": "no_empty_param_list",
       "category": "ErrorProne",
-      "level": "Warning"
+      "level": "Warning",
+      "enabled": false
     },
     {
       "patternId": "no_stand_alone_at",
       "category": "ErrorProne",
-      "level": "Warning"
+      "level": "Warning",
+      "enabled": true
     },
     {
       "patternId": "space_operators",
       "category": "CodeStyle",
-      "level": "Info"
+      "level": "Info",
+      "enabled": false
     },
     {
       "patternId": "duplicate_key",
       "category": "ErrorProne",
-      "level": "Warning"
+      "level": "Warning",
+      "enabled": true
     },
     {
       "patternId": "empty_constructor_needs_parens",
       "category": "ErrorProne",
-      "level": "Warning"
+      "level": "Warning",
+      "enabled": false
     },
     {
       "patternId": "cyclomatic_complexity",
@@ -179,7 +201,8 @@
           "description": "Threshold",
           "name": "value"
         }
-      ]
+      ],
+      "enabled": true
     },
     {
       "patternId": "newlines_after_classes",
@@ -191,12 +214,14 @@
           "description": "Number of lines",
           "name": "value"
         }
-      ]
+      ],
+      "enabled": false
     },
     {
       "patternId": "no_unnecessary_fat_arrows",
       "category": "ErrorProne",
-      "level": "Error"
+      "level": "Error",
+      "enabled": true
     },
     {
       "patternId": "missing_fat_arrows",
@@ -208,17 +233,20 @@
           "description": "Strict",
           "name": "is_strict"
         }
-      ]
+      ],
+      "enabled": false
     },
     {
       "patternId": "non_empty_constructor_needs_parens",
       "category": "CodeStyle",
-      "level": "Info"
+      "level": "Info",
+      "enabled": false
     },
     {
       "patternId": "no_unnecessary_double_quotes",
       "category": "ErrorProne",
-      "level": "Error"
+      "level": "Error",
+      "enabled": false
     },
     {
       "patternId": "no_debugger",
@@ -230,17 +258,20 @@
           "description": "Detect console statements",
           "name": "console"
         }
-      ]
+      ],
+      "enabled": false
     },
     {
       "patternId": "no_interpolation_in_single_quotes",
       "category": "CodeStyle",
-      "level": "Warning"
+      "level": "Warning",
+      "enabled": true
     },
     {
       "patternId": "no_empty_functions",
       "category": "ErrorProne",
-      "level": "Warning"
+      "level": "Warning",
+      "enabled": false
     },
     {
       "patternId": "prefer_english_operator",
@@ -252,37 +283,44 @@
           "description": "Disallow double ! operator",
           "name": "doubleNotLevel"
         }
-      ]
+      ],
+      "enabled": false
     },
     {
       "patternId": "spacing_after_comma",
       "category": "CodeStyle",
-      "level": "Info"
+      "level": "Info",
+      "enabled": false
     },
     {
       "patternId": "transform_messes_up_line_numbers",
       "category": "ErrorProne",
-      "level": "Warning"
+      "level": "Warning",
+      "enabled": false
     },
     {
       "patternId": "ensure_comprehensions",
       "category": "ErrorProne",
-      "level": "Warning"
+      "level": "Warning",
+      "enabled": true
     },
     {
       "patternId": "no_this",
       "category": "ErrorProne",
-      "level": "Warning"
+      "level": "Warning",
+      "enabled": false
     },
     {
       "patternId": "eol_last",
       "category": "CodeStyle",
-      "level": "Info"
+      "level": "Info",
+      "enabled": false
     },
     {
       "patternId": "no_private_function_fat_arrows",
       "category": "ErrorProne",
-      "level": "Warning"
+      "level": "Warning",
+      "enabled": false
     }
   ]
 }

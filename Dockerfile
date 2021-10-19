@@ -1,15 +1,15 @@
-FROM alpine:3.7 as builder
+FROM alpine:3.14.2 as builder
 
 WORKDIR /app
 
-RUN apk --update add openssh-client git nodejs 
+RUN apk --update add openssh-client git nodejs npm
 RUN rm -rf /var/cache/apk/*
 RUN npm install -g grunt-cli
 
 ADD . .
 RUN npm install && grunt
 
-FROM alpine:3.7
+FROM alpine:3.14.2
 
 WORKDIR /usr/src/app
 
@@ -20,7 +20,7 @@ COPY --chown=docker:docker package.json /usr/src/app
 COPY --chown=docker:docker package-lock.json /usr/src/app
 COPY --from=builder --chown=docker:docker /app/target /usr/src/app/target
 
-RUN apk add --no-cache bash nodejs-npm
+RUN apk add --no-cache bash nodejs npm
 RUN npm install --only=production
 
 USER docker

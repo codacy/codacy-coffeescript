@@ -1,4 +1,4 @@
-FROM alpine:3.14.2 as builder
+FROM alpine:3.17.3 as builder
 
 WORKDIR /app
 
@@ -9,7 +9,7 @@ RUN npm install -g grunt-cli
 ADD . .
 RUN npm install && grunt
 
-FROM alpine:3.14.2
+FROM alpine:3.17.3
 
 WORKDIR /usr/src/app
 

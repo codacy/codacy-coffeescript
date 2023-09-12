@@ -3,4 +3,4 @@
 fn = ->
 
 ##Err: no_tabs
-	5 ##Err: indentation
+  5

@@ -1,5 +1,5 @@
 {
-  "name": "coffeelint",
+  "name": "@coffeelint/cli",
   "patterns": {
     "arrow_spacing": {
       "category": "CodeStyle",

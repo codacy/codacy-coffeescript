@@ -1,5 +1,5 @@
 {
-  "name": "coffeelint",
+  "name": "@coffeelint/cli",
   "version": "5.2.11",
   "patterns": [
     {

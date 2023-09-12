@@ -7,8 +7,8 @@ fn2 = ->
   5
 
 fn3 = ->
-##Err: indentation
-    5
+
+    5  ##Err: indentation
 
 fn4 = ->
   5

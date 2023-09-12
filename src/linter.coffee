@@ -1,6 +1,6 @@
 fs = require 'fs'
 path = require 'path'
-{lint} = require 'coffeelint'
+{lint} = require '@coffeelint/cli'
 transform = require './transform'
 
 lintFile = (file, config) ->

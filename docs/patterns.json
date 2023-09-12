@@ -1,6 +1,6 @@
 {
-  "name": "coffeelint",
-  "version": "2.1.0",
+  "name": "@coffeelint/cli",
+  "version": "5.2.11",
   "patterns": [
     {
       "patternId": "coffeescript_error",
@@ -33,10 +33,22 @@
       "enabled": false
     },
     {
+      "patternId": "bracket_spacing",
+      "category": "CodeStyle",
+      "level": "Info",
+      "enabled": false
+    },
+    {
       "patternId": "no_tabs",
       "category": "CodeStyle",
       "level": "Error",
       "enabled": true
+    },
+    {
+      "patternId": "no_spaces",
+      "category": "CodeStyle",
+      "level": "Warning",
+      "enabled": false
     },
     {
       "patternId": "no_trailing_whitespace",
@@ -170,7 +182,7 @@
     {
       "patternId": "no_stand_alone_at",
       "category": "ErrorProne",
-      "level": "Warning",
+      "level": "Info",
       "enabled": true
     },
     {
@@ -237,6 +249,12 @@
       "enabled": false
     },
     {
+      "patternId": "prefer_fat_arrows_in_methods",
+      "category": "CodeStyle",
+      "level": "Info",
+      "enabled": false
+    },
+    {
       "patternId": "non_empty_constructor_needs_parens",
       "category": "CodeStyle",
       "level": "Info",
@@ -287,6 +305,12 @@
       "enabled": false
     },
     {
+      "patternId": "prefer_logical_operator",
+      "category": "CodeStyle",
+      "level": "Info",
+      "enabled": false
+    },
+    {
       "patternId": "spacing_after_comma",
       "category": "CodeStyle",
       "level": "Info",
@@ -320,6 +344,18 @@
       "patternId": "no_private_function_fat_arrows",
       "category": "ErrorProne",
       "level": "Warning",
+      "enabled": false
+    },
+    {
+      "patternId": "missing_parseint_radix",
+      "category": "ErrorProne",
+      "level": "Warning",
+      "enabled": false
+    },
+    {
+      "patternId": "object_shorthand",
+      "category": "CodeStyle",
+      "level": "Info",
       "enabled": false
     }
   ]

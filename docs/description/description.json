@@ -30,9 +30,21 @@
     "timeToFix": 5
   },
   {
+    "patternId": "bracket_spacing",
+    "title": "Bracket Spacing",
+    "description": "Square brackets must have the proper spacing",
+    "timeToFix": 5
+  },
+  {
     "patternId": "no_tabs",
     "title": "No Tabs",
     "description": "Line contains tab indentation",
+    "timeToFix": 5
+  },
+  {
+    "patternId": "no_spaces",
+    "title": "No Spaces",
+    "description": "Line contains space indentation",
     "timeToFix": 5
   },
   {
@@ -204,7 +216,7 @@
   {
     "patternId": "newlines_after_classes",
     "title": "Newlines After Classes",
-    "description": "Wrong count of newlines between a class and other code",
+    "description": "Wrong count of blank lines between a class and other code",
     "parameters": [
       {
         "default": 3,
@@ -231,6 +243,12 @@
         "name": "is_strict"
       }
     ],
+    "timeToFix": 5
+  },
+  {
+    "patternId": "prefer_fat_arrows_in_methods",
+    "title": "Prefer Fat Arrows In Methods",
+    "description": "Require fat arrows inside method bodies",
     "timeToFix": 5
   },
   {
@@ -284,6 +302,12 @@
     "timeToFix": 5
   },
   {
+    "patternId": "prefer_logical_operator",
+    "title": "Prefer Logical Operator",
+    "description": "Don't use is, isnt, not, and, or, yes, on, no, off",
+    "timeToFix": 5
+  },
+  {
     "patternId": "spacing_after_comma",
     "title": "Spacing After Comma",
     "description": "a space is required after commas",
@@ -317,6 +341,18 @@
     "patternId": "no_private_function_fat_arrows",
     "title": "No Private Function Fat Arrows",
     "description": "Used the fat arrow for a private function",
+    "timeToFix": 5
+  },
+  {
+    "patternId": "missing_parseint_radix",
+    "title": "Missing Parseint Radix",
+    "description": "parseInt is missing the radix argument",
+    "timeToFix": 5
+  },
+  {
+    "patternId": "object_shorthand",
+    "title": "Object Shorthand",
+    "description": "Use property-value shorthand when using explicit braces",
     "timeToFix": 5
   }
 ]

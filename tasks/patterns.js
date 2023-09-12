@@ -1,4 +1,4 @@
-var coffeelint = require('coffeelint');
+var coffeelint = require('@coffeelint/cli');
 
 var defaultPatterns = [
     "no_interpolation_in_single_quotes",

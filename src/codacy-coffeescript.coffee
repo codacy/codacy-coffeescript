@@ -11,7 +11,7 @@ try
 catch
     userConfig = {}
 
-for tool in userConfig.tools when tool.name is 'coffeelint'
+for tool in userConfig.tools when tool.name is '@coffeelint/cli'
     for pattern in tool.patterns
         lintConfig[pattern.patternId] = defaultLintConfig[pattern.patternId]
         if pattern.parameters

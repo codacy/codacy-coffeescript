@@ -1,0 +1,1 @@
+This rule forbids spaces in indentation. It is disabled by default.

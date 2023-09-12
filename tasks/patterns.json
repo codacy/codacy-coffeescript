@@ -21,6 +21,10 @@
       "category": "CodeStyle",
       "level": "Info"
     },
+    "bracket_spacing": {
+      "category": "CodeStyle",
+      "level": "Info"
+    },
     "camel_case_classes": {
       "category": "CodeStyle",
       "level": "Error"
@@ -109,6 +113,10 @@
         }
       ]
     },
+    "missing_parseint_radix": {
+    "category": "ErrorProne",
+    "level": "Warning"
+    },
     "newlines_after_classes": {
       "category": "CodeStyle",
       "level": "Info",
@@ -174,9 +182,13 @@
       "category": "ErrorProne",
       "level": "Warning"
     },
+    "no_spaces": {
+      "category": "CodeStyle",
+      "level": "Warning"
+    },
     "no_stand_alone_at": {
       "category": "ErrorProne",
-      "level": "Warning"
+      "level": "Info"
     },
     "no_tabs": {
       "category": "CodeStyle",
@@ -222,6 +234,10 @@
       "category": "CodeStyle",
       "level": "Info"
     },
+    "object_shorthand": {
+      "category": "CodeStyle",
+      "level": "Info"
+    },
     "prefer_english_operator": {
       "category": "CodeStyle",
       "level": "Warning",
@@ -232,6 +248,14 @@
           "name": "doubleNotLevel"
         }
       ]
+    },
+    "prefer_fat_arrows_in_methods": {
+      "category": "CodeStyle",
+      "level": "Info"
+    },
+    "prefer_logical_operator": {
+      "category": "CodeStyle",
+      "level": "Info"
     },
     "space_operators": {
       "category": "CodeStyle",

@@ -1,4 +1,4 @@
-This rule imposes a standard number of spaces to be used for
+This rule imposes a standard number of spaces(tabs) to be used for
 indentation. Since whitespace is significant in CoffeeScript, it's
 critical that a project chooses a standard indentation format and
 stays consistent. Other roads lead to darkness. <pre> <code>#

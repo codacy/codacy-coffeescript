@@ -23,6 +23,7 @@ workflows:
             - publish_local
       - codacy/publish_docker:
           name: publish_dockerhub
+          context: CodacyDocker
           filters:
             branches:
               only: master

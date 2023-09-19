@@ -30,7 +30,6 @@ sh script/bootstrap
 ```
 
 ### Testing
-
 Test the project with
 
 ```bash
